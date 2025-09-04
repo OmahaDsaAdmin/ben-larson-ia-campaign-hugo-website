@@ -1,3 +1,5 @@
 {{ define "main" }}
-  {{ partial "portfolio.html" . }}
+  <main>
+    {{ .Content }} <!-- this renders content/_index.md -->
+  </main>
 {{ end }}

@@ -2,7 +2,6 @@
 title: "Welcome to My Campaign"
 subtitle: "Power to the People"
 spantext: "Better Iowa"
-layout: home_post
 ---
 
 # Ben Larson

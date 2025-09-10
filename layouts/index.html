@@ -2,9 +2,10 @@
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header {
-        background-image: url('{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Params.header_image | relURL}}{{ end }}')
+        background-color: darkblue;
     }
 </style>
+<!-- background-image: url('./images/BenLarson.webp') -->
 {{ if eq .Params.headerstyle "text" }}
 <header class="intro-header style-text" >
 {{ else }}

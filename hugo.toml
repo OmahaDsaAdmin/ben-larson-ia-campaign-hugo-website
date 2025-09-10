@@ -1,4 +1,5 @@
 baseURL = 'https://omahadsaadmin.github.io/ben-larson-ia-campaign-hugo-website/'
 languageCode = 'en-us'
-title = 'Ben For City Council IA'
+title = 'Benjamin Larson for City Council'
 theme = 'hugo-theme-cleanwhite-master'
+header_image = '/images/BenLarson.webp'

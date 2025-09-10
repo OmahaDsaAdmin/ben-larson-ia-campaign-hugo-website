@@ -1,5 +1,4 @@
-baseURL = 'https://benjaminlarson.org/'
+baseURL = 'https://benjaminlarson.org'
 languageCode = 'en-us'
 title = 'Benjamin Larson for City Council'
 theme = 'hugo-theme-cleanwhite-master'
-header_image = '/images/BenLarson.webp'

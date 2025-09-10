@@ -1,5 +1,6 @@
 ---
 title: "Contact Me"
+layout: "post"
 ---
 
 ![Council-Bluffs-Ambulance](../images/BenLarson.webp)

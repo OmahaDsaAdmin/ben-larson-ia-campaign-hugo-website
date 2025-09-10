@@ -81,7 +81,6 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}" \
-            --buildFuture
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v4

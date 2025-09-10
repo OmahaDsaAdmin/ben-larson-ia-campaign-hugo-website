@@ -2,9 +2,10 @@
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header {
-        background-image: url('{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Params.header_image | relURL}}{{ end }}')
+        background-color: darkblue;
     }
 </style>
+<!-- background-image: url('./images/BenLarson.webp') -->
 {{ if eq .Params.headerstyle "text" }}
 <header class="intro-header style-text" >
 {{ else }}
@@ -24,31 +25,7 @@
                     <h1>{{ .Title }}</h1>
                     <h2 class="subheading">{{ .Params.subtitle }}</h2>
                     <span class="meta">
-                        {{ if .Params.metadata }}
-                            {{ range $index, $element := .Params.metadata }}
-                                {{ if .link }}
-                                    <a href="{{ .link }}">{{ .text }}</a>
-                                {{ else }}
-                                    {{ .text }}
-                                {{ end }}
-                            {{ end }}
-                        {{ else }}
-                            Posted by 
-                            {{ if .Params.author }}
-                                {{ .Params.author }}
-                            {{ else }}
-                                    {{ .Site.Title }}
-                            {{ end }} 
-                            on 
-                            {{ .Date.Format "Monday, January 2, 2006" }}
-                            {{ if .Site.Params.page_view_counter }}
-                                {{ partial "page_view_counter.html" . }}
-                            {{ end }}
-                            <!-- Don't show "Last Modified on" if update happened on the same day. -->
-                            {{ if (and (not .Lastmod.IsZero) (not (eq (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02" .Date)))) }}
-                            <br>Last Modified on {{ dateFormat "Monday, January 2, 2006" .Params.LastMod }}
-                            {{ end }}
-                        {{ end }}    
+                        {{ .Params.spantext }} 
                     </span>
                 </div>
             </div>
@@ -103,23 +80,6 @@
 
                 {{ partial "comments.html" . }}
             </div>
-
-            <!-- Side Catalog Container -->
-            {{ if not (eq (.Param "showtoc") false) }}
-            <div class="
-                col-lg-2 col-lg-offset-0
-                visible-lg-block
-                sidebar-container
-                catalog-container">
-                <div class="side-catalog">
-                    <hr class="hidden-sm hidden-xs">
-                    <h5>
-                        <a class="catalog-toggle" href="#">CATALOG</a>
-                    </h5>
-                    <ul class="catalog-body"></ul>
-                </div>
-            </div>
-            {{ end }}
 
             <!-- Sidebar Container -->
             <div class="

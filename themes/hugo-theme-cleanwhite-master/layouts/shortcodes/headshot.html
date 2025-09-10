@@ -1,0 +1,23 @@
+<div>
+    <div class="headshot-split">
+        <img src="{{ .Get "src" }}"></img>
+    </div>
+    <div class="headshot-split-2">
+        <p>{{ .Get "text" }}</p>
+    </div>
+</div>
+
+<style>
+    @media (min-width: 1250px) {
+    .headshot-split {
+        max-width: 30%;
+        display: inline-block;
+    }
+    .headshot-split-2 {
+        max-width: 69%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 2%
+    }}
+
+</style>

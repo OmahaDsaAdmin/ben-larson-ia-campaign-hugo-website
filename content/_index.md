@@ -27,8 +27,8 @@ I hope not only to represent Council Bluffs, but I also hope to inspire others a
 
 ## But why “Housing for All”?
 
-Because more than just the homeless need homes- <b>people nationwide are being driven from their homes and apartments by rising rents and pricing. There simply is not enough.</b>
-Because, while mental healthcare must be expanded, it won’t matter if the most basic requirements for life aren’t met; <b>how can we tackle the underlying issues of homelessness if these people have no safe place to even start rebuilding their lives?</b>
+Because more than just the homeless need homes- **people nationwide are being driven from their homes and apartments by rising rents and pricing. There simply is not enough.**
+Because, while mental healthcare must be expanded, it won’t matter if the most basic requirements for life aren’t met; **how can we tackle the underlying issues of homelessness if these people have no safe place to even start rebuilding their lives?**
 
 ![Council-Bluffs-Ambulance](images/cb.jpeg)
 

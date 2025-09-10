@@ -1,4 +1,4 @@
-baseURL = 'https://omahadsaadmin.github.io/ben-larson-ia-campaign-hugo-website/'
+baseURL = 'http://benjaminlarson.org/'
 languageCode = 'en-us'
 title = 'Benjamin Larson for City Council'
 theme = 'hugo-theme-cleanwhite-master'
